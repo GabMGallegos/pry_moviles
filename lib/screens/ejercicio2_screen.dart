@@ -48,10 +48,6 @@ class _Ejercicio2ScreenState extends State<Ejercicio2Screen> {
             'Ingrese un número para ver el procedimiento y el resultado.',
           ),
           SizedBox(height: 20),
-          Text(
-            'Ejemplo: 5! = 5 × 4 × 3 × 2 × 1 = 120. El factorial de 0 es 1.',
-          ),
-          SizedBox(height: 20),
           TextField(
             controller: numeroCtrl,
             keyboardType: TextInputType.numberWithOptions(signed: true),
