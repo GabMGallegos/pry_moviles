@@ -20,9 +20,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.indigo),
       ),
-      // Pantalla con la que arranca la app
       initialRoute: '/',
-      // Mapa de rutas: nombre de la ruta -> pantalla
       routes: {
         '/': (context) => BienvenidaScreen(),
         '/ejercicio1': (context) => Ejercicio1Screen(),
